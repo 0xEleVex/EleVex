@@ -1,11 +1,11 @@
-# Solana.com Monorepo Agent Guide
+# elevex.fun Monorepo Agent Guide
 
 Start here before exploring the repo in depth.
 
 ## What This Repo Is
 
 This is a `pnpm` workspace + Turborepo monorepo for several separately deployed
-Next.js apps that are stitched together behind `solana.com` with rewrites and
+Next.js apps that are stitched together behind `elevex.fun` with rewrites and
 asset prefixes.
 
 Most apps are not standalone product islands. They share:
@@ -33,7 +33,7 @@ Pick the app first. That usually cuts exploration time in half.
 
 ### Apps
 
-- `apps/web`: main `solana.com` app, large surface area, mix of marketing,
+- `apps/web`: main `elevex.fun` app, large surface area, mix of marketing,
   ecosystem, events, news aggregation, and developer entry points
 - `apps/docs`: Fumadocs-based developer docs with MDX content under `content/`
 - `apps/media`: Keystatic-backed news and podcast site with content in
@@ -108,7 +108,7 @@ If repo structure changed and the onboarding docs may be stale, use the
 - `@solana-com/ui-chrome/url-config` uses that value to decide whether a link
   should use Next client navigation or a full page load across app boundaries
 - Several apps use `assetPrefix` plus rewrites so they can live behind
-  `solana.com` without breaking static assets
+  `elevex.fun` without breaking static assets
 
 If you touch navigation, shared header/footer behavior, or route ownership,
 inspect `packages/ui-chrome` and the target app `next.config.ts` together.
