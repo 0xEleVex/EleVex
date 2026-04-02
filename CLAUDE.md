@@ -1,4 +1,4 @@
-# Solana.com Monorepo
+# elevex.fun Monorepo
 
 This is the official Solana Foundation website monorepo, containing multiple
 Next.js applications and shared packages deployed on Vercel.
@@ -9,7 +9,7 @@ Next.js applications and shared packages deployed on Vercel.
 solana-com/
 ├── apps/
 │   ├── accelerate/   # Solana Accelerate conference - port 3004
-│   ├── web/          # Main website (solana.com) - port 3000
+│   ├── web/          # Main website (elevex.fun) - port 3000
 │   ├── docs/         # Developer documentation - port 3003
 │   ├── media/        # Blog & news (TinaCMS) - port 3002
 │   └── templates/    # Code templates showcase - port 3001
