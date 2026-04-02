@@ -8,7 +8,7 @@ For a short agent-oriented entry point, start with [`AGENTS.md`](./AGENTS.md).
 ## Structure
 
 ```
-solana-com/
+EleVex/
 ├── apps/
 │   ├── web/          # Main website (solana.com) - port 3000
 │   ├── docs/         # Developer documentation - port 3003
@@ -51,7 +51,7 @@ Shared packages worth checking early:
 1. Clone the repo:
 
    ```bash
-   git clone https://github.com/solana-foundation/solana-com.git
+   git clone https://github.com/0xEleVex/EleVex.git
    ```
 
 2. Install dependencies (pnpm required):
