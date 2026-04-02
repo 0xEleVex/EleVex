@@ -1,6 +1,6 @@
-# solana.com Monorepo
+# elevex.fun Monorepo
 
-Repository for [https://solana.com](https://solana.com) — a Turborepo-powered
+Repository for [https://elevex.fun](https://elevex.fun) — a Turborepo-powered
 monorepo containing multiple Next.js applications and shared packages.
 
 For a short agent-oriented entry point, start with [`AGENTS.md`](./AGENTS.md).
